@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.text {
+    color: aliceblue;
+}
+
+.nav__home {
+
+    display: inline-block;
+    text-decoration: underline;
+    
+}
+
+.nav__song {
+    display: inline-block;
+    margin-left: 95%;
+    
+
+    position: relative;
+    bottom: 27px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    
+
+    
+}
+
+.nav__com {
+    display: block;
+    margin-left: 94.7%;
+
+    position: relative;
+    bottom: 20px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: rgb(97, 91, 226);
+    display: inline-block;
+    margin-left: 35%;
+    padding: 7px;
+    border: 2px solid black;
+    box-shadow: 0 5px 5px rgb(0, 0, 0.4);
+}
+
+
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    background-size: cover;
+    background-image: url(../images/20567426.jpg);
+    background-repeat: no-repeat;
+    background-color: palevioletred;
+    width: 1920px;
+    height: 1080px;
+
+    
+    
+    
+    
+    
+}
+a {
+    text-decoration: none;
+}
+
+.Header a{
+    color: rgb(161, 243, 225);
+
+
+}
+
+
+.Header {
+    
+    background-image: url(../images/mvqzjym6ie17firw.jpg);
+    
+    background-size: cover;
+    background-position-y: 1720px;
+    width: 100%;
+    background-attachment: fixed;
+    border: 1.5px solid black;
+    position: fixed;
+    box-shadow: 0 5px 5px rgb(0, 0, 0.4);
+    
+}
+
+.text img {  
+    border-radius: 5px;
+    margin-left: 1rem;
+
+
+}
+
+.text p {   
+    display: flex;
+    margin-top: 120px;
+    margin-left: 1rem;
+
+
+}
+
+
+
+.dReservados {  
+
+    position: sticky;
+    z-index: 10;
+    top: 1050px;
+    margin-left: 1700px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 2px solid white;
+
+    
+
+
+}
+
+/* ---------Canciones.html-------- */
+
+
+.spotify {
+
+    display: flexbox;
+    position: relative;
+    margin-top: 40px;
+}
+
+.music li{
+    display: flexbox;
+    background-color: azure;
+    border-radius: 15px;
+    border: 1.2px solid;
+    text-decoration: dotted;
+    width: 290px;
+    height: 50px;
+    
+
+}
+
+/* --------Community----------- */
+
+.Register {
+    display: inline-block;
+    position: relative;
+    margin-top: 6%;
+    margin-left: 5px;
+    
+
+}
+
+.Register h1{
+    
+    display: inline-block;
+    background-color: rgb(199, 104, 247);
+    padding: 0 auto;
+    border-radius: 7px;
+    margin-left: 335px;
+
+
+}
+
+
+.Register form div input{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: burlywood;
+}
+
+
+.info {
+    display: flex;
+    margin-top: 5%;
+    border: 2px solid rgb(140, 50, 176);
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    
+}
+
+.allForm{
+    position: flex;
+    padding: 30px;
+    background-color: rgb(86, 51, 155);
+    border-radius: 20px;
+    border: 3px solid blueviolet;
+    margin: 0 auto;
+    left: 30px;
+    margin-left: 600px;
+    margin-right: 300px;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+    
+}
+
+.info__name{
+    position: relative;
+    margin-left: 150px;
+    top: 10px;
+
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid coral;
+
+}
+
+.inputName{
+    position: relative;
+    top: 2px;
+    left: 3px;
+
+}
+
+.info__pass{
+    position: relative;
+    margin-left: 150px;
+    top: 12px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid coral;
+    
+}
+
+.inputPass{
+    position: relative;
+    top: 2px;
+
+
+
+}
+
+
+.info__age{ 
+    position: relative;
+    margin-left: 150px;
+    top: 13px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid coral;
+
+}
+
+.inputAge   {
+    position: relative;
+    top: 5px;
+    left: 48px;
+
+
+
+}
+
+.info__mail{
+    position: relative;
+    margin-left: 150px;
+    top: 15px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid coral;
+
+}
+
+.inputMail{
+    position: relative;
+    top: 5px;
+    left: 32px;
+
+
+}
+
+.formButton{
+    position: relative;
+    margin-left: 510px;
+    top: 10px;
+
+
+}
+
+.comChat{
+    display: inline-block;
+    position: relative;
+    margin-left: 38.8%;
+    background-color: rgb(199, 104, 247);
+    border-radius: 10px;
+}
+
+.comChat h2{
+    margin-left: 11rem;
+}
